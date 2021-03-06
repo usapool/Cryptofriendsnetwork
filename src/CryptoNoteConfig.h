@@ -100,7 +100,7 @@ const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 } // parameters
 
-const char     CRYPTONOTE_NAME[]                             = "BitcoiNote";
+const char     CRYPTONOTE_NAME[]                             = "Cryptofriendsnetwork";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -135,7 +135,7 @@ const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; //
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
-const char* const SEED_NODES[] = { "s1.nodes.bitcoinote.org:28388", "s2.nodes.bitcoinote.org:28388" };
+const char* const SEED_NODES[] = { "45.32.215.166:28388", "155.138.197.131:28388" };
 
 
 struct CheckpointData {
