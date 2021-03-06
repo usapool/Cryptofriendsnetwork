@@ -1,5 +1,5 @@
 Copyright (c) 2012-2017, The CryptoNote developers, The Crypto Friends Network developers, The Forknote developers  
-Copyright (c) 2017-2018, The BitcoiNote developers
+Copyright (c) 2020-2021, The Crypto Friends Network developers
 
 # Cryptofriendsnetwork Core
 
