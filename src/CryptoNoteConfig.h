@@ -39,7 +39,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 // MONEY_SUPPLY - total number coins to be generated
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(2100000000000000);
 const unsigned EMISSION_SPEED_FACTOR                         = 22;
-const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(42)1000;
+const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(1000);
 const uint64_t SECOND_BLOCK_REWARD                           = UINT64_C(840000000000000);
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
