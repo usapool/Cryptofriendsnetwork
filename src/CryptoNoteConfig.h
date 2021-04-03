@@ -40,7 +40,6 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(2100000000000000);
 const unsigned EMISSION_SPEED_FACTOR                         = 22;
 const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(1000);
-const uint64_t SECOND_BLOCK_REWARD                           = UINT64_C(840000000000000);
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
