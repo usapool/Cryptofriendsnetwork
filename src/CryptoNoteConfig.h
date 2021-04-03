@@ -1,19 +1,19 @@
-// Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
+// Copyright (c) 2012-2017, The CryptoNote developers, The Crypto Friends Network developers
 //
-// This file is part of Bytecoin.
+// This file is part of cryptofriendsnetwork.
 //
-// Bytecoin is free software: you can redistribute it and/or modify
+// Cryptofriendsnetwork is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Bytecoin is distributed in the hope that it will be useful,
+// Cryptofriendsnetwork is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with Bytecoin.  If not, see <http://www.gnu.org/licenses/>.
+// along with Cryptofriendsnetwork.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
@@ -38,7 +38,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 
 // MONEY_SUPPLY - total number coins to be generated
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(2100000000000000);
-const unsigned EMISSION_SPEED_FACTOR                         = 21;
+const unsigned EMISSION_SPEED_FACTOR                         = 22;
 const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(42);
 const uint64_t SECOND_BLOCK_REWARD                           = UINT64_C(840000000000000);
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
@@ -55,7 +55,7 @@ const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 8;
 const uint64_t MINIMUM_FEE                                   = UINT64_C(100000);
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(100000);
 
-const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
+const uint64_t DIFFICULTY_TARGET                             = 60; // seconds
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
 const size_t   LEGACY_DIFFICULTY_WINDOW                             = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY; // blocks
 const size_t   LEGACY_DIFFICULTY_CUT                                = 60;  // timestamps to cut after sorting
@@ -145,12 +145,12 @@ struct CheckpointData {
 };
 
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
-  {70000, "adfbc8ac4f5ae09404a6fbde4a8d06052f9f34d6864a758c54b2f7bc11a5a91d"},
-  {70195, "e24699feac664e4c9c75060e299c23b2913f39bcafa9557d79c9601a0084b211"},
-  {70920, "a3316d86b15ebe20c9a8bb206dc823f6312d99ff81d4a9b6aa8a8a039b434004"},
-  {100000, "1fab25b0991d6584c1f2d519a9df9a4ad1cd8f9fd2fc4ef95647573be2d9adbc"},
-  {130000, "88e551f18e24aee324479bfacf8f4a3448706183562447d2b8c523876301cc63"},
-  {160000, "2206d1346a32d7d354ea806c3c66ce32d44b999fd05f539672e137c71ae42b68"}
+  //{70000, "adfbc8ac4f5ae09404a6fbde4a8d06052f9f34d6864a758c54b2f7bc11a5a91d"},
+  //{70195, "e24699feac664e4c9c75060e299c23b2913f39bcafa9557d79c9601a0084b211"},
+  //{70920, "a3316d86b15ebe20c9a8bb206dc823f6312d99ff81d4a9b6aa8a8a039b434004"},
+  //{100000, "1fab25b0991d6584c1f2d519a9df9a4ad1cd8f9fd2fc4ef95647573be2d9adbc"},
+  //{130000, "88e551f18e24aee324479bfacf8f4a3448706183562447d2b8c523876301cc63"},
+  //{160000, "2206d1346a32d7d354ea806c3c66ce32d44b999fd05f539672e137c71ae42b68"}
 };
 
 } // CryptoNote
