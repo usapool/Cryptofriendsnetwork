@@ -30,7 +30,7 @@ const uint32_t HF_SEP18_HEIGHT                               = 178500;
 const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
-const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 125;
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x1655;
 const uint32_t CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW         = 100;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 500;
 
