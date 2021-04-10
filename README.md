@@ -85,8 +85,8 @@ To build, open the `CMakeLists.txt` in QtCreator. Also you can turn on `PORTABLE
 The following files are created:
 
 * `Cryptofriendsnetworkd`: The main coin daemon.
-* `miner`: Stand-alone miner tool (requires daemon).
-* `simplewallet`: Command-line wallet tool (if started with `--rpc-bind-port 1234` it will expose a simplified JSON RPC wallet interface).
+* `cfnminer`: Stand-alone miner tool (requires daemon).
+* `cfnewallet`: Command-line wallet tool (if started with `--rpc-bind-port 1234` it will expose a simplified JSON RPC wallet interface).
 * `walletd`: Wallet daemon (exposes full Payment Gate Service RPC interface on default port `8070`).
 * `connection_tool`: Connection tool.
 
